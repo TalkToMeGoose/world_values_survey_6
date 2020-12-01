@@ -1,0 +1,344 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+<title>WVS Database</title>
+<meta content="WVS Data ArchiveJDS,Survey, JDSurvey, online data analysis, encuestas,WVS Database,World Values Survey Data-Archive" name="keywords"/>
+<meta content="World Values Survey Data-Archive Online Survey analysis website" name="description"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, maximum-scale=10, minimum-scale=0.1, user-scalable=yes" name="viewport"/>
+<script src="js/dtree/jquery/jquery.min.js"></script>
+<script language="JavaScript" src="js/jds.js"></script>
+<script src="js/fusioncharts.js" type="text/javascript"></script>
+<script src="js/fusioncharts.maps.js" type="text/javascript"></script>
+<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+<link href="css/aj.css" rel="stylesheet" type="text/css"/>
+<link href="js/grid/skins/dhtmlxgrid_dhx_web.css" rel="stylesheet" type="text/css"/>
+<script src="js/grid/dhtmlxcommon.js"></script>
+<script src="js/grid/dhtmlxgrid.js"></script>
+<script src="js/grid/dhtmlxgridcell.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_start.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_form.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_splt.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_nxml.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_filter.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_drag.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_keymap_access.js"></script>
+<link href="js/grid/dhtmlxtabbar.css" rel="STYLESHEET" type="text/css"/>
+<script src="js/tabbar/dhtmlxtabbar.js"></script>
+<script>
+dhtmlx.skin = "dhx_web";
+</script>
+</head>
+<body>
+<form action="" method="Post" name="Datos">
+<input name="ulthost" type="hidden" value="WVS"/>
+<input name="CMSID" type="hidden"/>
+<script language="JavaScript">
+	var datos=document.Datos;
+	var dialogBox=false;
+	var dialogDiv="";
+	function Home() {
+		datos.action="AJOnline.jsp";
+	}
+</script>
+<div class="AJPage" id="PAGE">
+<div class="clear"> </div>
+<div style="float:right;">
+<table border="1" gridwidth="220px" id="gridsmpl" imgpath="js/grid/imgs/" multiline="true" name="gridsmpl">
+<tr>
+<th align="left" type="ro" width="180">Select a country:</th>
+</tr>
+<tr id="0">
+<td style="color:navy;font-weight:bold;">Integrated documentation</td>
+</tr>
+<tr id="2233">
+<td>Algeria 2014</td>
+</tr>
+<tr id="2227">
+<td>Argentina 2013</td>
+</tr>
+<tr id="357">
+<td>Armenia 2011</td>
+</tr>
+<tr id="1341">
+<td>Australia 2012</td>
+</tr>
+<tr id="407">
+<td>Azerbaijan 2011</td>
+</tr>
+<tr id="441">
+<td>Belarus 2011</td>
+</tr>
+<tr id="2317">
+<td>Brasil 2014</td>
+</tr>
+<tr id="1407">
+<td>Colombia 2012</td>
+</tr>
+<tr id="449">
+<td>Cyprus 2011</td>
+</tr>
+<tr id="867">
+<td>Chile 2012</td>
+</tr>
+<tr id="1339">
+<td>China 2013</td>
+</tr>
+<tr id="2192">
+<td>Ecuador 2013</td>
+</tr>
+<tr id="1329">
+<td>Egypt 2013</td>
+</tr>
+<tr id="443">
+<td>Estonia 2011</td>
+</tr>
+<tr id="2374">
+<td>Georgia 2014</td>
+</tr>
+<tr id="2210">
+<td>Germany 2013</td>
+</tr>
+<tr id="448">
+<td>Ghana 2012</td>
+</tr>
+<tr id="3194">
+<td>Haiti 2016</td>
+</tr>
+<tr id="2318">
+<td>Hong Kong 2014</td>
+</tr>
+<tr id="558">
+<td>India 2012</td>
+</tr>
+<tr id="2229">
+<td>Iraq 2013</td>
+</tr>
+<tr id="316">
+<td>Japan 2010</td>
+</tr>
+<tr id="2308">
+<td>Jordan 2014</td>
+</tr>
+<tr id="450">
+<td>Kazakhstan 2011</td>
+</tr>
+<tr id="2319">
+<td>Kuwait 2014</td>
+</tr>
+<tr id="445">
+<td>Kyrgyzstan 2011</td>
+</tr>
+<tr id="2231">
+<td>Lebanon 2013</td>
+</tr>
+<tr id="2228">
+<td>Libya 2014</td>
+</tr>
+<tr id="364">
+<td>Malaysia 2012</td>
+</tr>
+<tr id="451">
+<td>Mexico 2012</td>
+</tr>
+<tr id="325">
+<td>Morocco 2011</td>
+</tr>
+<tr id="1340">
+<td>Netherlands 2012</td>
+</tr>
+<tr id="555">
+<td>New Zealand 2011</td>
+</tr>
+<tr id="446">
+<td>Nigeria 2012</td>
+</tr>
+<tr id="559">
+<td>Pakistan 2012</td>
+</tr>
+<tr id="2155">
+<td>Palestine 2013</td>
+</tr>
+<tr id="556">
+<td>Peru 2012</td>
+</tr>
+<tr id="554">
+<td>Philippines 2012</td>
+</tr>
+<tr id="874">
+<td>Poland 2012</td>
+</tr>
+<tr id="314">
+<td>Qatar 2010</td>
+</tr>
+<tr id="452">
+<td>Romania 2012</td>
+</tr>
+<tr id="372">
+<td>Russia 2011</td>
+</tr>
+<tr id="557">
+<td>Rwanda 2012</td>
+</tr>
+<tr id="861">
+<td>Singapore 2012</td>
+</tr>
+<tr id="2181">
+<td>Slovenia 2011</td>
+</tr>
+<tr id="317">
+<td>South Korea 2010</td>
+</tr>
+<tr id="2208">
+<td>South-Africa 2013</td>
+</tr>
+<tr id="312">
+<td>Spain 2011</td>
+</tr>
+<tr id="313">
+<td>Sweden 2011</td>
+</tr>
+<tr id="552">
+<td>Taiwan 2012</td>
+</tr>
+<tr id="2214">
+<td>Thailand 2013</td>
+</tr>
+<tr id="315">
+<td>Trinidad and Tobago 2010</td>
+</tr>
+<tr id="2232">
+<td>Tunisia 2013</td>
+</tr>
+<tr id="875">
+<td>Turkey 2011</td>
+</tr>
+<tr id="442">
+<td>Ukraine 2011</td>
+</tr>
+<tr id="341">
+<td>United States 2011</td>
+</tr>
+<tr id="366">
+<td>Uruguay 2011</td>
+</tr>
+<tr id="444">
+<td>Uzbekistan 2011</td>
+</tr>
+<tr id="2230">
+<td>Yemen 2014</td>
+</tr>
+<tr id="447">
+<td>Zimbabwe 2012</td>
+</tr>
+</table>
+</div>
+<div id="marcoDoc" style="float:left;margin-right:15px;display:inline;">
+<iframe frameborder="0" id="frameDoc" name="frameDoc" scrolling="no" style="width:450px;border:1px solid #B4BBC8;"></iframe>
+</div>
+<input name="CndWAVE" type="hidden" value="6"/>
+<input name="SAID" type="hidden"/>
+<input name="INID" type="hidden"/>
+<script language="Javascript">
+	var gridsmpl = null;
+
+	function IniciaGridSmpl() {
+		
+			var miHeight=parent.parent.areaHeight()-340;
+			if (miHeight<400) miHeight=400;
+			gridsmpl = dhtmlXGridFromTable("gridsmpl");
+			gridsmpl.enableTooltips("false");
+		  	gridsmpl.enableResizing("false");
+		  	gridsmpl.attachEvent("onRowSelect",function(rowId,cellIndex){
+		     	SmplShow(rowId);
+		  	});  	
+			gridsmpl.attachHeader("#text_filter");
+			gridsmpl.enableAutoHeight(true,miHeight,true);
+			gridsmpl.setSizes();
+		
+		SmplShow("0");
+	}
+ 	function autoResize() {
+  	try   {
+			IniciaGridSmpl();
+  		var miHeight=document.body.scrollHeight;
+  		if (miHeight<600) miHeight=600;
+			parent.postMessage("jdsLoaded"+miHeight, "*");
+		} catch (mensaje) {
+			alert(mensaje);
+		} 
+	}
+	setTimeout(function(){autoResize()},30);
+
+	function autoResizeFrame(newHeight){
+		try {
+			if (newHeight<420) newHeight=420;
+			objeto("frameDoc").style.height= (newHeight) + "px";
+  		var miHeight=document.body.scrollHeight;
+  		if (miHeight<600) miHeight=600;
+			parent.postMessage("jdsLoaded"+miHeight, "*");
+		} catch(message) {
+			alert("ERROR"+message);
+		}
+	}
+	function SetPart(paid) {
+		parent.SetParticipant(paid);
+	}
+	function SmplShow(said) {
+		datos.SAID.value=said;
+		datos.action="AJDocumentationSmpl.jsp";
+		datos.target="frameDoc";
+		datos.submit();
+		datos.action="";
+		datos.target="";
+	}
+</script>
+<div class="AJClear" style="margin-top:20px;"> </div>
+</div> <!-- Fondo -->
+</form></body></html><!-- Page -->
+<input name="AJArchive" type="hidden" value="WVS Data Archive"/>
+<input name="EdFunction" type="hidden"/>
+<input name="DOP" type="hidden" value=""/>
+<input name="XU" type="hidden" value=""/>
+<input name="PUB" type="hidden"/>
+<script language="JavaScript">
+	function  SetPubDoc(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsDocuments.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubBook(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsBooks.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPaper(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPapers.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPres(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPresentations.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+</script>
+<script>
+		
+				var geodatos=encodeURIComponent("95.90.241.78\tx\tx\tx\tx\tx\tx\tx");
+				$.get("jdsStatJD.jsp?ID="+geodatos+
+					"&url=http%3A%2F%2Fwww.worldvaluessurvey.org%2FAJDocumentation.jsp&referer=null&cms=Documentation",
+					function (resp2) {
+				});
+
+			
+</script>
+
+
+
