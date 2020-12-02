@@ -1,11 +1,11 @@
 Python
 
-- import text from World Values Survey(WVS) website
-- gather country date by year
-- save this file as .csv ("WVS_country_by_year")
-- use for loop
-- use list or dictionary
-- use functions
+- import text from World Values Survey(WVS) website [DONE]
+- gather country date by year [DONE]
+- save this file as .csv ("WVS_country_by_year") [DONE]
+- use for loop [DONE]
+- use list or dictionary [DONE]
+- use functions [DONE]
 
 stata
 - import WVS data from website
