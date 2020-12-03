@@ -52,4 +52,4 @@ read_write_text_from_url('http://www.worldvaluessurvey.org/AJDocumentation.jsp?C
 td_data = find_td_data_from_url('http://www.worldvaluessurvey.org/AJDocumentation.jsp?CndWAVE=6&COUNTRY=')
 country_year_pairs = get_country_year_pairs(td_data)
 
-write_csv('../data/derived/WVS_country_year.csv', country_year_pairs)
+write_csv('../data/derived/survey_year.csv', country_year_pairs)
