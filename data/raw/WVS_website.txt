@@ -331,7 +331,7 @@ dhtmlx.skin = "dhx_web";
 </script>
 <script>
 		
-				var geodatos=encodeURIComponent("95.90.241.78\tx\tx\tx\tx\tx\tx\tx");
+				var geodatos=encodeURIComponent("95.90.241.105\tx\tx\tx\tx\tx\tx\tx");
 				$.get("jdsStatJD.jsp?ID="+geodatos+
 					"&url=http%3A%2F%2Fwww.worldvaluessurvey.org%2FAJDocumentation.jsp&referer=null&cms=Documentation",
 					function (resp2) {
