@@ -1,0 +1,12 @@
+	(1)
+VARIABLES	satisfaction
+	
+ln_gdppc	0.346***
+	(0.00897)
+Constant	3.551***
+	(0.0852)
+	
+Observations	70,253
+R-squared	0.021
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
