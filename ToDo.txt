@@ -8,15 +8,15 @@ Python
 - use functions [DONE]
 
 stata
-- import WVS data from website
-- keep relevant variables
-- rename values
-- import GDP per capita data from Maddison Project Database (NOTE: GPD per capita is not on WVS)
-- import WVS_country_by_year
-- merge Maddison Project Database and WVS_country_by_year into WVS database
-- keep relevant variables
-- make ln gdp per capita variables
-- regress income on happiness variable and others
-- create graph
-- save graph
+- import WVS data from website [DONE]
+- keep relevant variables [DONE]
+- rename values [DONE]
+- import GDP per capita data from Maddison Project Database (NOTE: GPD per capita is not on WVS) [DONE]
+- import WVS_country_by_year [DONE]
+- merge Maddison Project Database and WVS_country_by_year into WVS database [DONE]
+- keep relevant variables [DONE]
+- make ln gdp per capita variables [DONE]
+- regress income on satisfaction variable [DONE]
+- create graph [DONE]
+- save graph [DONE]
 
